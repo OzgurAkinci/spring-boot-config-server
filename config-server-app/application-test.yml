@@ -1,0 +1,2 @@
+application:
+  from-environment: from application-test.yml

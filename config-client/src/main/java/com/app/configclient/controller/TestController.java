@@ -9,11 +9,11 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/app")
 public class TestController {
 
-    @Value("${my.prop}")
-    String v;
+    @Value("${application.from-environment}")
+    String fromEnvironment;
 
-    @GetMapping("/test")
+    @GetMapping("/from")
     public String test() {
-        return "test: " + v;
+        return "Result: " + fromEnvironment;
     }
 }
