@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/app")
 public class TestController {
 
-    @Value("${from-environment}")
+    @Value("${my.prop}")
     String fromEnvironment;
 
     @GetMapping("/from")

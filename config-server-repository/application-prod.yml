@@ -1,1 +1,2 @@
+my.prop: from application-dev.ym
 from-environment: application-prod.yml
