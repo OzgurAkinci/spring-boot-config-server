@@ -3,7 +3,8 @@
 
 #### http://localhost:9192/app/test
 
-#### http://localhost:9191/application-dev.yml
-#### http://localhost:9191/application-test.yml
-#### http://localhost:9191/application-prod.yml
+#### Default: http://localhost:9191/application.yml
+#### Dev: http://localhost:9191/application-dev.yml
+#### Test: http://localhost:9191/application-test.yml
+#### Prod: http://localhost:9191/application-prod.yml
 
