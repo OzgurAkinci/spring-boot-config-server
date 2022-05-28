@@ -14,6 +14,6 @@ public class TestController {
 
     @GetMapping("/from")
     public String test() {
-        return "Result: " + fromEnvironment;
+        return "From: " + fromEnvironment;
     }
 }

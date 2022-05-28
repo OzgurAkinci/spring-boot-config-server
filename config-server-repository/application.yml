@@ -1,2 +1,2 @@
 application:
-  from-environment: from application.yml
+  from-environment: application.yml
