@@ -12,7 +12,7 @@ public class TestController {
     @Value("${from-environment}")
     String fromEnvironment;
 
-    @GetMapping("/from")
+    @GetMapping("/test")
     public String test() {
         return "From: " + fromEnvironment;
     }
